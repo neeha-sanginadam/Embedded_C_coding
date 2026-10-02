@@ -1,11 +1,13 @@
-# C Fundamentals — Coding Problems
+# 🧩 C Fundamentals
 
-## 1. Swap Two Numbers
+> Core C programming problems to build strong problem-solving fundamentals for Embedded C interviews.
 
-### Logic
+
+# 1️⃣ Swap Two Numbers
+
+### 💡 Logic
 
 Store one value in a temporary variable and exchange the two values.
-This avoids losing either of the original values.
 
 ```c
 int temp = a;
@@ -15,12 +17,11 @@ b = temp;
 
 ---
 
-## 2. Find Largest of Two Numbers
+# 2️⃣ Find Largest of Two Numbers
 
-### Logic
+### 💡 Logic
 
-Compare the two numbers using `if-else`.
-The greater value is the largest.
+Compare the two numbers using `if-else`. The greater value is the largest.
 
 ```c
 if (a > b)
@@ -31,12 +32,11 @@ else
 
 ---
 
-## 3. Check Even or Odd
+# 3️⃣ Check Even or Odd
 
-### Logic
+### 💡 Logic
 
-A number is even if it is completely divisible by 2.
-Use the remainder operator `%` to check divisibility.
+A number is even if it is completely divisible by `2`. Use `%` to check the remainder.
 
 ```c
 if (num % 2 == 0)
@@ -47,12 +47,11 @@ else
 
 ---
 
-## 4. Check Positive, Negative or Zero
+# 4️⃣ Check Positive, Negative or Zero
 
-### Logic
+### 💡 Logic
 
-Compare the number with zero.
-`> 0` means positive, `< 0` means negative, otherwise it is zero.
+Compare the number with zero. A value greater than zero is positive, less than zero is negative, otherwise it is zero.
 
 ```c
 if (num > 0)
@@ -65,30 +64,32 @@ else
 
 ---
 
-## 5. Factorial of a Number
+# 5️⃣ Factorial of a Number
 
-### Logic
+### 💡 Logic
 
-Factorial is the product of all integers from 1 to `n`.
-Use a loop to repeatedly multiply the result by the current number.
+Factorial is the product of all integers from `1` to `n`. Use a loop to repeatedly multiply the result.
 
 ```c
 int factorial = 1;
 
 for (int i = 1; i <= n; i++)
     factorial *= i;
+```
 
-printf("%d", factorial);
+Example:
+
+```text
+5! = 5 × 4 × 3 × 2 × 1 = 120
 ```
 
 ---
 
-## 6. Fibonacci Series
+# 6️⃣ Fibonacci Series
 
-### Logic
+### 💡 Logic
 
-Each Fibonacci number is the sum of the previous two numbers.
-Maintain two variables and calculate the next value without using an array.
+Each Fibonacci number is the sum of the previous two numbers. Maintain two variables to generate the next number without an array.
 
 ```c
 int first = 0;
@@ -104,14 +105,19 @@ for (int i = 0; i < n; i++)
 }
 ```
 
+Example:
+
+```text
+0 1 1 2 3 5 8 13 21 34
+```
+
 ---
 
-## 7. Check Prime Number
+# 7️⃣ Check Prime Number
 
-### Logic
+### 💡 Logic
 
-A prime number has exactly two factors: 1 and itself.
-Check divisibility from 2 up to `sqrt(n)`; if any number divides it, it is not prime.
+A prime number has exactly two factors: `1` and itself. Check divisibility only up to `sqrt(n)`.
 
 ```c
 int is_prime = 1;
@@ -127,21 +133,15 @@ for (int i = 2; i <= n / i; i++)
         break;
     }
 }
-
-if (is_prime)
-    printf("Prime");
-else
-    printf("Not Prime");
 ```
 
 ---
 
-## 8. Print Prime Numbers in a Range
+# 8️⃣ Print Prime Numbers in a Range
 
-### Logic
+### 💡 Logic
 
-Check every number in the given range using a prime-checking function.
-Print the number if the function confirms that it is prime.
+Check every number in the given range using a prime-checking function. Print the number if it is prime.
 
 ```c
 int prime(int n)
@@ -167,12 +167,11 @@ for (int i = start; i <= end; i++)
 
 ---
 
-## 9. Reverse an Integer
+# 9️⃣ Reverse an Integer
 
-### Logic
+### 💡 Logic
 
-Extract the last digit using `% 10` and add it to the reversed number.
-Remove the last digit using `/ 10` and repeat until the number becomes zero.
+Extract the last digit using `% 10` and add it to the reversed number. Remove the last digit using `/ 10`.
 
 ```c
 int reverse = 0;
@@ -182,18 +181,21 @@ while (num)
     reverse = reverse * 10 + num % 10;
     num /= 10;
 }
+```
 
-printf("%d", reverse);
+Example:
+
+```text
+1234 → 4321
 ```
 
 ---
 
-## 10. Check Palindrome Number
+# 🔟 Check Palindrome Number
 
-### Logic
+### 💡 Logic
 
-A number is a palindrome if it reads the same forwards and backwards.
-Reverse the number and compare it with the original number.
+A number is a palindrome if it reads the same forwards and backwards. Reverse the number and compare it with the original.
 
 ```c
 int original = num;
@@ -211,14 +213,20 @@ else
     printf("Not Palindrome");
 ```
 
+Example:
+
+```text
+121 → Palindrome
+123 → Not Palindrome
+```
+
 ---
 
-## 11. Count Number of Digits
+# 1️⃣1️⃣ Count Number of Digits
 
-### Logic
+### 💡 Logic
 
-Repeatedly divide the number by 10 until it becomes zero.
-Each division removes one digit, so the number of iterations is the digit count.
+Repeatedly divide the number by `10`. Each division removes one digit.
 
 ```c
 int count = 0;
@@ -235,18 +243,21 @@ else
         num /= 10;
     }
 }
+```
 
-printf("%d", count);
+Example:
+
+```text
+123456 → 6 digits
 ```
 
 ---
 
-## 12. Sum of Digits
+# 1️⃣2️⃣ Sum of Digits
 
-### Logic
+### 💡 Logic
 
-Extract each digit using `% 10` and add it to `sum`.
-Remove the extracted digit using `/ 10` and continue until zero.
+Extract each digit using `% 10` and add it to `sum`. Remove the extracted digit using `/ 10`.
 
 ```c
 int sum = 0;
@@ -256,18 +267,21 @@ while (num)
     sum += num % 10;
     num /= 10;
 }
+```
 
-printf("%d", sum);
+Example:
+
+```text
+1234 → 1 + 2 + 3 + 4 = 10
 ```
 
 ---
 
-## 13. Product of Digits
+# 1️⃣3️⃣ Product of Digits
 
-### Logic
+### 💡 Logic
 
-Extract each digit using `% 10` and multiply it with `product`.
-Initialize `product` to 1 because 1 is the multiplicative identity.
+Extract each digit using `% 10` and multiply it with `product`. Initialize `product` to `1`.
 
 ```c
 int product = 1;
@@ -277,18 +291,21 @@ while (num)
     product *= num % 10;
     num /= 10;
 }
+```
 
-printf("%d", product);
+Example:
+
+```text
+1234 → 1 × 2 × 3 × 4 = 24
 ```
 
 ---
 
-## 14. Armstrong Number
+# 1️⃣4️⃣ Armstrong Number
 
-### Logic
+### 💡 Logic
 
-Count the number of digits, then raise every digit to that digit count and add the results.
-If the sum equals the original number, it is an Armstrong number.
+Count the digits and raise every digit to that count. If the sum equals the original number, it is an Armstrong number.
 
 ```c
 int temp = num;
@@ -321,14 +338,20 @@ else
     printf("Not Armstrong");
 ```
 
+Example:
+
+```text
+153 = 1³ + 5³ + 3³
+    = 153
+```
+
 ---
 
-## 15. Find GCD
+# 1️⃣5️⃣ Find GCD
 
-### Logic
+### 💡 Logic
 
-Use the Euclidean algorithm: repeatedly replace `(a, b)` with `(b, a % b)`.
-When `b` becomes zero, `a` contains the GCD.
+Use the Euclidean algorithm and repeatedly replace `(a, b)` with `(b, a % b)`. When `b` becomes `0`, `a` is the GCD.
 
 ```c
 int gcd(int a, int b)
@@ -356,31 +379,18 @@ GCD(48, 18)
 GCD = 6
 ```
 
+**Complexity:** `O(log(min(a, b)))`
+
 ---
 
-## 16. Find LCM
+# 1️⃣6️⃣ Find LCM
 
-### Logic
+### 💡 Logic
 
-LCM can be calculated using the relationship between LCM and GCD.
-Divide first to reduce overflow risk, then multiply by the other number.
+LCM can be calculated using the relationship between LCM and GCD. Divide first to reduce the possibility of integer overflow.
 
 ```c
-int gcd(int a, int b)
-{
-    while (b != 0)
-    {
-        int temp = b;
-        b = a % b;
-        a = temp;
-    }
-
-    return a;
-}
-
 int lcm = (a / gcd(a, b)) * b;
-
-printf("LCM = %d", lcm);
 ```
 
 Formula:
@@ -389,14 +399,22 @@ Formula:
 LCM(a, b) = (a × b) / GCD(a, b)
 ```
 
+Example:
+
+```text
+GCD(12, 18) = 6
+
+LCM = (12 / 6) × 18
+    = 36
+```
+
 ---
 
-## 17. Calculate Power of a Number
+# 1️⃣7️⃣ Calculate Power of a Number
 
-### Logic
+### 💡 Logic
 
-Multiply the base by itself `exponent` times.
-Initialize the result to 1 because multiplying by 1 does not change the value.
+Multiply the base by itself `exponent` times. Initialize the result to `1`.
 
 ```c
 int result = 1;
@@ -405,24 +423,23 @@ for (int i = 0; i < exponent; i++)
 {
     result *= base;
 }
-
-printf("%d", result);
 ```
 
 Example:
 
 ```text
-2^5 = 2 × 2 × 2 × 2 × 2 = 32
+2⁵ = 2 × 2 × 2 × 2 × 2 = 32
 ```
+
+**Complexity:** `O(exponent)`
 
 ---
 
-## 18. Check Leap Year
+# 1️⃣8️⃣ Check Leap Year
 
-### Logic
+### 💡 Logic
 
-A year divisible by 400 is a leap year, or it must be divisible by 4 but not by 100.
-This handles century years such as 1900 and 2000 correctly.
+A year divisible by `400` is a leap year. Otherwise, it must be divisible by `4` but not by `100`.
 
 ```c
 if ((year % 400 == 0) ||
@@ -436,14 +453,22 @@ else
 }
 ```
 
+Examples:
+
+```text
+2024 → Leap Year
+2000 → Leap Year
+1900 → Not a Leap Year
+2023 → Not a Leap Year
+```
+
 ---
 
-## 19. Generate Multiplication Table
+# 1️⃣9️⃣ Generate Multiplication Table
 
-### Logic
+### 💡 Logic
 
-Use a loop from 1 to 10 and multiply the given number by the loop counter.
-Print the result for each multiplication.
+Run a loop from `1` to `10` and multiply the given number by the loop counter.
 
 ```c
 for (int i = 1; i <= 10; i++)
@@ -456,9 +481,20 @@ for (int i = 1; i <= 10; i++)
 Example:
 
 ```text
-5 x 1  = 5
-5 x 2  = 10
-5 x 3  = 15
+5 × 1  = 5
+5 × 2  = 10
+5 × 3  = 15
 ...
-5 x 10 = 50
+5 × 10 = 50
 ```
+
+---
+
+## 📊 C Fundamentals Progress
+
+```text
+[████████████████████] 19 / 19
+
+Status: ✅ Completed
+```
+

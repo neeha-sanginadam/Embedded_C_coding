@@ -34,19 +34,19 @@ The focus is on:
 * [ ] Check whether a number is even or odd
 * [ ] Check whether a number is positive, negative or zero
 * [ ] Find factorial
-* [ ] Generate Fibonacci series
-* [ ] Check whether a number is prime
+* [ ] **Generate Fibonacci series**
+* [ ] **Check whether a number is prime**
 * [ ] Print prime numbers in a range
 * [ ] Reverse a number
-* [ ] Check whether a number is palindrome
+* [ ] **Check whether a number is palindrome**
 * [ ] Count number of digits
 * [ ] Find sum of digits
 * [ ] Find product of digits
-* [ ] Check Armstrong number
-* [ ] Find GCD
-* [ ] Find LCM
+* [ ] **Check Armstrong number**
+* [ ] **Find GCD**
+* [ ] **Find LCM**
 * [ ] Calculate power of a number
-* [ ] Check leap year
+* [ ] **Check leap year**
 * [ ] Generate multiplication table
 
 ---

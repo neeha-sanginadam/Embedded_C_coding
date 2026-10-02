@@ -53,7 +53,7 @@ The focus is on:
 
 # 2. Pointers and Memory ⭐⭐⭐
 
-* [ ] Swap two numbers using pointers
+* [ ] **Swap two numbers using pointers**
 * [ ] Modify a variable using a pointer
 * [ ] Traverse an array using pointers
 * [ ] Find maximum using pointers
@@ -61,23 +61,23 @@ The focus is on:
 * [ ] Reverse an array using pointers
 * [ ] Calculate string length using pointers
 * [ ] Copy string using pointers
-* [ ] Compare strings using pointers
-* [ ] Concatenate strings using pointers
-* [ ] Pointer arithmetic
-* [ ] Pointer to pointer
-* [ ] Array of pointers
+* [ ] **Compare strings using pointers**
+* [ ] **Concatenate strings using pointers**
+* [ ] **Pointer arithmetic**
+* [ ] **Pointer to pointer**
+* [ ] **Array of pointers**
 * [ ] Pointer to an array
-* [ ] Function pointer basics
+* [ ] **Function pointer basics**
 * [ ] NULL pointer
 * [ ] Dangling pointer
-* [ ] Wild pointer
+* [ ] **Wild pointer**
 * [ ] Memory leak
 * [ ] Use-after-free
 * [ ] `malloc()`
 * [ ] `calloc()`
 * [ ] `realloc()`
-* [ ] `free()`
-* [ ] Implement dynamic integer array
+* [ ] `**free()`**
+* [ ] **Implement dynamic integer array**
 * [ ] Stack vs Heap
 * [ ] Variable lifetime
 * [ ] Pointer and `const`

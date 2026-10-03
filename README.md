@@ -127,6 +127,9 @@ The focus is on:
 * [ ] Copy an array
 * [ ] Count frequency of elements
 * [ ] Find duplicate elements
+* [ ] Find duplicate elements using Hash table
+* [ ] Find first non repeating element
+* [ ] Find first non repeating element using Hash table
 * [ ] Find missing element
 * [ ] Remove duplicate elements
 * [ ] Remove an element from array

@@ -97,23 +97,23 @@ The focus is on:
 * [ ] Update a bit
 * [ ] Count set bits
 * [ ] Count clear bits
-* [ ] Check whether number is power of 2
+* [ ] **Check whether number is power of 2**
 * [ ] Find position of first set bit
 * [ ] Clear lowest set bit
-* [ ] Find only non-repeating number
-* [ ] Find missing number using XOR
-* [ ] Find two non-repeating numbers
+* [ ] **Find only non-repeating number**
+* [ ] **Find missing number using XOR**
+* [ ] **Find two non-repeating numbers**
 * [ ] Swap numbers using XOR
-* [ ] Check whether two numbers have opposite signs
+* [ ] **Check whether two numbers have opposite signs**
 * [ ] Reverse bits
-* [ ] Rotate bits left
-* [ ] Rotate bits right
+* [ ] **Rotate bits left**
+* [ ] **Rotate bits right**
 * [ ] Extract a bit field
-* [ ] Insert a bit field
+* [ ] **Insert a bit field**
 * [ ] Set multiple bits
 * [ ] Clear multiple bits
-* [ ] Check parity
-* [ ] Count set bits using Brian Kernighan's algorithm
+* [ ] **Check parity**
+* [ ] **Count set bits using Brian Kernighan's algorithm**
 
 ---
 

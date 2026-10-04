@@ -137,7 +137,9 @@ The focus is on:
 * [ ] Move zeros to the end
 * [ ] Move negative numbers to one side
 * [ ] Rotate array left
+* [ ] Rotate array left by position (in-place)
 * [ ] Rotate array right
+* [ ] Rotate array right by position (in-place)
 * [ ] Merge two arrays
 * [ ] Merge two sorted arrays
 * [ ] Find common elements

@@ -121,36 +121,38 @@ The focus is on:
 
 * [ ] Find maximum element
 * [ ] Find minimum element
-* [ ] Find second largest element
-* [ ] Find second smallest element
+* [ ] **Find second largest element**
+* [ ] **Find second smallest element**
 * [ ] Reverse an array
 * [ ] Copy an array
-* [ ] Count frequency of elements
+* [ ] **Count frequency of elements**
 * [ ] Find duplicate elements
-* [ ] Find duplicate elements using Hash table
+* [ ] **Find duplicate elements using Hash table**
 * [ ] Find first non repeating element
-* [ ] Find first non repeating element using Hash table
+* [ ] **Find first non repeating element using Hash table**
 * [ ] Find missing element
-* [ ] Remove duplicate elements
+* [ ] **Remove duplicate elements**
 * [ ] Remove an element from array
-* [ ] Insert an element into array
+* [ ] **Insert an element into array**
 * [ ] Move zeros to the end
-* [ ] Move negative numbers to one side
-* [ ] Rotate array left
-* [ ] Rotate array left by position (in-place)
-* [ ] Rotate array right
-* [ ] Rotate array right by position (in-place)
+* [ ] **Move negative numbers to one side**
+* [ ] **Move negative numbers to one side by preserving the order**
+* [ ] **Rotate array left**
+* [ ] **Rotate array left by position (in-place) (use reversing method)**
+* [ ] **Rotate array right**
+* [ ] **Rotate array right by position (in-place) (use reversing method)**
 * [ ] Merge two arrays
-* [ ] Merge two sorted arrays
-* [ ] Find common elements
-* [ ] Find union of two arrays
-* [ ] Find intersection of two arrays
-* [ ] Find pair with given sum
+* [ ] **Merge two sorted arrays**
+* [ ] **Find common elements**
+* [ ] **Find union of two arrays**
+* [ ] **Find intersection of two arrays**
+* [ ] **Find pair with given sum**
+* [ ] Find pair with given sum using Hash table
 * [ ] Find triplet with given sum
-* [ ] Find maximum subarray sum
-* [ ] Find equilibrium index
-* [ ] Find majority element
-* [ ] Find leaders in an array
+* [ ] **Find maximum subarray sum**
+* [ ] **Find equilibrium index**
+* [ ] **Find majority element**
+* [ ] **Find leaders in an array**
 
 ---
 

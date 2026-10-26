@@ -166,6 +166,7 @@ Implement the following **without using the standard library function** where ap
 * [ ] Implement `strcat()`
 * [ ] Reverse a string
 * [ ] Check palindrome string
+* [ ] Check palindrome string without including space
 * [ ] Count vowels
 * [ ] Count consonants
 * [ ] Count digits

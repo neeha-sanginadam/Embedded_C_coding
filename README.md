@@ -172,6 +172,7 @@ Implement the following **without using the standard library function** where ap
 * [ ] Count digits
 * [ ] Count spaces
 * [ ] Count character frequency
+* [ ] Count character frequency for string which has upper and lowercase.
 * [ ] Find first occurrence of a character
 * [ ] Remove spaces
 * [ ] Remove duplicate characters

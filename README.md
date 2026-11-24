@@ -225,12 +225,12 @@ Implement the following **without using the standard library function** where ap
 * [ ] Find minimum element
 * [ ] Insert at beginning
 * [ ] Insert at end
-* [ ] Insert at given position
-* [ ] Insert before a given node
-* [ ] Insert after a given node
+* [ ] **Insert at given position**
+* [ ] **Insert before a given node**
+* [ ] **Insert after a given node**
 * [ ] Delete first node
 * [ ] Delete last node
-* [ ] Delete node at given position
+* [ ] D**elete node at given position**
 * [ ] Delete node containing given value
 * [ ] Delete entire linked list
 * [ ] Reverse linked list

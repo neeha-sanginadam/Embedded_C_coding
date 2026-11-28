@@ -230,25 +230,27 @@ Implement the following **without using the standard library function** where ap
 * [ ] **Insert after a given node**
 * [ ] Delete first node
 * [ ] Delete last node
-* [ ] D**elete node at given position**
-* [ ] Delete node containing given value
+* [ ] **Delete node at given position**
+* [ ] **Delete node containing given value**
 * [ ] Delete entire linked list
-* [ ] Reverse linked list
-* [ ] Reverse linked list recursively
+* [ ] **Reverse linked list**
+* [ ] **Reverse linked list recursively**
 * [ ] Find middle node
+* [ ] Find_first middle node
+* [ ] **Find second middle node**
 * [ ] Find nth node from beginning
 * [ ] Find nth node from end
 * [ ] Find length of linked list
-* [ ] Detect cycle
-* [ ] Find starting point of cycle
-* [ ] Find length of cycle
-* [ ] Remove cycle
-* [ ] Remove duplicates from sorted list
+* [ ] **Detect cycle**
+* [ ] **Find starting point of cycle**
+* [ ] **Find length of cycle**
+* [ ] **Remove cycle**
+* [ ] **Remove duplicates from sorted list**
 * [ ] Remove duplicates from unsorted list
-* [ ] Merge two sorted linked lists
-* [ ] Check palindrome linked list
-* [ ] Find intersection of two linked lists
-* [ ] Find intersection point
+* [ ] **Merge two sorted linked lists**
+* [ ] **Check palindrome linked list**
+* [ ] **Find intersection of two linked lists**
+* [ ] **Find intersection point**
 * [ ] Sort linked list
 * [ ] Move last node to first
 * [ ] Delete node without head pointer
